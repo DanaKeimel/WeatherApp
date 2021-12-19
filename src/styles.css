@@ -1,50 +1,80 @@
-.container {
-  max-width: 800px;
-  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
-  margin: 30px auto;
-  padding: 20px;
-  border: 1px solid blue;
-  border-radius: 5px;
-}
 h1 {
-  color: #3621ad;
+  color: white;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
   font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.main-container {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 0 0 0 25px;
-  padding: 1px 300px 1px 10px;
-  font-size: 24px;
-}
-.temperatureNumber {
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  left: 350px;
-  top: -10px;
-  background: white;
-  border: 3px solid #3621ad;
-  border-radius: 10px;
 }
 h2 {
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 10px;
   padding-top: 20px;
-}
-.col {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 24px;
-  padding-left: 10px;
+  color: white;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-left: 10px;
+  color: white;
+}
+.firstButton {
+  background: white;
+  color: #5c636a;
+  border: 2px solid #5c636a;
+}
+.cityInfo {
+  margin: auto;
   padding-top: 20px;
+  padding-left: 100px;
+}
+
+.container {
+  max-width: 800px;
+  background: linear-gradient(
+    90deg,
+    rgb(115, 155, 252) 0%,
+    rgb(143, 109, 224) 89%
+  );
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main-container {
+  width: 250px;
+  height: 250px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid white;
+  margin: 10px auto 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.main-container .weather-icon {
+  font-size: 70px;
+}
+.main-container .currentTemperature {
+  font-size: 80px;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+.main-container .celsiusSign {
+  font-size: 18px;
+  color: white;
+}
+.container .forcastweather {
+  background: white;
+  border-radius: 5px;
+}
+.cityInfo {
+  color: white;
+}
+.forcastweather .col {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding-left: 20px;
 }

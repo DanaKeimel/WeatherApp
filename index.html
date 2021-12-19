@@ -36,34 +36,36 @@
             <input
               type="submit"
               value="Search"
-              class="form-control btn btn-primary shadow-sm w-100"
+              class="form-control btn btn-primary shadow-sm w-100 firstButton"
             />
           </div>
           <div class="col-3">
-            <button class="btn btn-success w-100" id="current-location-btn">
-              Current📍
+            <button
+              class="btn btn-secondary w-100 secondButton"
+              id="current-location-btn"
+            >
+              Current
             </button>
           </div>
         </div>
       </form>
-      <br />
+
       <div class="container">
         <div class="row">
           <div class="col">
             <div class="main-container">
-              <span class="weather-icon"> ⛅️ </span>
+              <span class="weather-icon">☀️</span>
               <br />
               <span class="currentTemperature" id="temperatureNumber"> 26</span>
-              <span class="celsiusSign"> °C </span>
+              <span class="celsiusSign"> °C | °F </span>
               <br />
               <span id="description"> </span>
             </div>
+            <h2></h2>
             <br />
-            <div class="row-6 timeAndDayToday">
-              <h2></h2>
-            </div>
+            <div class="row-6 timeAndDayToday"></div>
           </div>
-          <div class="col">
+          <div class="col cityInfo">
             <h3 class="city" id="city"></h3>
             <br />
             <span class="parameters">
@@ -75,41 +77,40 @@
             </span>
           </div>
         </div>
-        <hr />
-        <div class="container">
+        <div class="container forcastweather">
           <div class="row">
             <div class="col weatherDayone">
               ⛅️
               <br />
-              20°C
+              20 °C
               <br />
               Mon
             </div>
             <div class="col weatherDaytwo">
               🌧
               <br />
-              17°C
+              17 °C
               <br />
               Tue
             </div>
             <div class="col weatherDaythree">
               ⛅️
               <br />
-              18°C
+              18 °C
               <br />
               Wed
             </div>
             <div class="col weatherDayfour">
               ⛈
               <br />
-              18°C
+              18 °C
               <br />
               Thu
             </div>
             <div class="col weatherDayfive">
               ⛅️
               <br />
-              21°C
+              21 °C
               <br />
               Fri
             </div>
