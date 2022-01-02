@@ -27,7 +27,7 @@
             <input
               type="text"
               class="form-control"
-              id="search-text-input"
+              id="city-input"
               placeholder="Enter a city 🔍"
               autofocus="on"
             />
@@ -54,26 +54,33 @@
         <div class="row">
           <div class="col">
             <div class="main-container">
-              <span class="weather-icon">☀️</span>
+              <img
+                src="http://openweathermap.org/img/wn/10d@2x.png"
+                alt="clear"
+                id="icon"
+                class="float-left"
+              />
               <br />
-              <span class="currentTemperature" id="temperatureNumber"> 26</span>
-              <span class = "units"><a href="#" class="active" id="celsius-link">°C</a> | <a href="#" class="inactive" id="fahrenheit-link">°F </a><span>
+              <span id="temperature"> 26</span>
+              <span class="units">
+                <a href="#" class="active" id="celsius-link"> °C</a> |
+                <a href="#" id="fahrenheit-link">°F </a></span
+              >
               <br />
-              <span id="description"> </span>
             </div>
             <h2></h2>
             <br />
             <div class="row-6 timeAndDayToday"></div>
           </div>
           <div class="col cityInfo">
-            <h3 class="city" id="city"></h3>
+            <h3 class="city" id="city">Toronto</h3>
             <br />
             <span class="parameters">
-              Wind: <span id="wind">1</span> m/s
+              Wind: <span id="wind">1</span> km/hr
               <br />
               Humidity: <span id="humidity"> 5</span> %
               <br />
-              Feels like: <span id="feels-like"> </span>°C
+              Feels like: <span id="feels-like"> 2 </span>°C
             </span>
           </div>
         </div>
@@ -117,18 +124,20 @@
           </div>
           <br />
 
-          <div class="col-6"> 
-          </div>
+          <div class="col-6"></div>
         </div>
-     
-      <div class="codedBy">
-              <a class="opensourceCode" href="https://github.com/DanaKeimel/WeatherStation-app">
-                Open-source code by: </a
-              >Dana Keimel
-            </div>
+
+        <div class="codedBy">
+          <a
+            class="opensourceCode"
+            href="https://github.com/DanaKeimel/WeatherStation-app"
+          >
+            Open-source code by: </a
+          >Dana Keimel
+        </div>
+      </div>
     </div>
-          </div>
-    
+
     <br />
     <br />
     <br />
