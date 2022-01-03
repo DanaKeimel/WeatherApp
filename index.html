@@ -33,17 +33,13 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-secondary w-100"
                 />
               </div>
             </div>
           </form>
           <div class="overview">
             <h1 id="city"></h1>
-            <ul>
-              <li>Last updated: <span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
           </div>
           <div class="row">
             <div class="col-6">
@@ -60,6 +56,8 @@
             </div>
             <div class="col-6">
               <ul>
+                <li>Last updated: <span id="date"></span></li>
+                <li id="description"></li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
@@ -67,13 +65,13 @@
           </div>
           <div class="weather-forecast" id="forecast"></div>
         </div>
+        <small>
+          <a href="https://github.com/DanaKeimel/WeatherApp" target="_blank"
+            >Open-source code</a
+          >
+          by Dana Keimel
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/DanaKeimel/WeatherApp" target="_blank"
-          >Open-source code</a
-        >
-        by Dana Keimel
-      </small>
     </div>
     <script src="src/script.js"></script>
   </body>
